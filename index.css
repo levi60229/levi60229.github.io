@@ -1,0 +1,159 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0px;
+    height: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+p {
+    font-family: "LiGothic", "FangSong", serif;
+    color: white;
+}
+
+#container {
+    background-image: url("https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/19093037_1219016238208121_6546184242834968998_o.jpg?_nc_cat=107&_nc_oc=AQkOm-XAX7tytqx1qF7UOEJpqNvzi9RqVPOp58wtm7AbZIIsv6QbOoB3Dqf6Gf5FAik&_nc_ht=scontent-tpe1-1.xx&oh=8fc3e3ae8a4f62e22306a36d93be5f64&oe=5DFBC0C5");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 100%;
+    position: relative;
+}
+#left {
+    float: left;
+    margin: 0;
+    width: 68%;
+    height: 100%;
+    position: absolute;
+}
+
+.top_l {
+    top: 0px;
+    width: 100%;
+    height: 27%;
+    position: absolute;
+}
+
+.top_l img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 50px;
+    left: 100px;
+}
+
+.medium_l {
+    position: absolute;
+    top: 27%;
+    width: 100%;
+    height: 46%;
+}
+
+.medium_l #theme {
+    position: absolute;
+    width: 600px;
+    height: 150px;
+    top: 0px;
+    left: 180px;
+}
+
+.medium_l #theme p {
+    margin-top: 20px;
+    font-size: 60px;
+    line-height: 20px;
+}
+
+.bottom_l {
+    position: absolute;
+    top: 73%;
+    width: 100%;
+    height: 27%;
+}
+
+.bottom_l #intro {
+    position: absolute;
+    width: 400px;
+    height: 60%;
+    top: 0px;
+    left: 320px;
+}
+
+.bottom_l #intro #name {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+}
+
+.bottom_l #intro #content {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 20%;
+    left: 0px;
+    font-size: 12px;
+    line-height: 5px;
+}
+
+#right {
+    float: left;
+    margin-left: 68%;
+    margin-top: 0;
+    width: 32%;
+    height: 100%;
+    position: relative;
+}
+
+.top_r {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 50%;
+}
+
+.top_r #nav {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 15%;
+    height: 54%;
+}
+
+.top_r #nav .list {
+    margin-bottom: 20px;
+    top: 0px;
+    width: 100%;
+    height: 9%;
+}
+
+.bottom_r {
+    position: absolute;
+    top: 50%;    
+    width: 100%;
+    height: 50%;
+}
+
+.bottom_r #back {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 40%;
+    height: 30%;
+    background-image: url("https://scontent-lht6-1.cdninstagram.com/v/t51.2885-15/e35/33942904_171532673514006_6710615366088785920_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com&se=7&oh=d7e20c5a2611482e027968f627bd0cb8&oe=5DE19022&ig_cache_key=MTc5NjczODgyMDAwNTUyMzQ4OQ%3D%3D.2");
+    background-size: contain;
+}
+
+.bottom_r #back p {
+    position: absolute;
+    bottom: 3%;
+    left: 0%;
+}
